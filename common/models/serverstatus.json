@@ -1,0 +1,36 @@
+{
+  "name": "serverstatus",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "hostId": {
+      "type": "number",
+      "id":true
+    },
+    "usedMem": {
+      "type": "string"
+    },
+    "loadCPU": {
+      "type": "string"
+    },
+    "usedDisk": {
+      "type": "string"
+    },
+    "commit":{
+      "type":"string"
+    },
+    "time":{
+      "type":"string"
+    },
+    "serverUp":{
+      "type":"number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

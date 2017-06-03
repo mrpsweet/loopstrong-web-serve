@@ -1,0 +1,54 @@
+{
+  "name": "actress",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "string"
+    },
+    "age": {
+      "type": "number"
+    },
+    "height": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "BWH": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "job": {
+      "type": "string"
+    },
+    "relation": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

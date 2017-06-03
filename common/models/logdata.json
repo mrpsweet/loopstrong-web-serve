@@ -1,0 +1,45 @@
+{
+  "name": "logdata",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "level": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "diffTime": {
+       "type": "number"
+    },
+    "appName": {
+      "type": "string"
+    },
+    "group": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "recordTime":{
+      "type":"string"
+    },
+    "appid":{
+     "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

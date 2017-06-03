@@ -1,0 +1,27 @@
+{
+  "name": "gridgril",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "covers": {
+      "type": "string"
+    },
+    "cover1": {
+      "type": "string"
+    },
+    "cover2": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

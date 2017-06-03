@@ -1,0 +1,30 @@
+{
+  "name": "serverlist",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "hostId": {
+      "type": "number",
+      "id": true
+    },
+    "serverName": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "serverGroup": {
+      "type": "string"
+    },
+    "serverIP": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

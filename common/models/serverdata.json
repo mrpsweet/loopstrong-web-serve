@@ -1,0 +1,39 @@
+{
+  "name": "serverdata",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id":true
+    },
+    "usedMem": {
+      "type": "number"
+    },
+    "loadCPU": {
+      "type": "number"
+    },
+    "usedDisk":{
+      "type":"string"
+    },
+    "time":{
+      "type":"string"
+    },
+    "desc":{
+      "type":"string"
+    },
+    "hostId":{
+      "type":"number"
+    },
+    "serverUp":{
+      "type":"number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

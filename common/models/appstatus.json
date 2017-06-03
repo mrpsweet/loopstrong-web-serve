@@ -1,0 +1,36 @@
+{
+  "name": "appstatus",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id":true
+    },
+    "appStatus": {
+      "type": "number",
+      "id":true
+    },
+    "ifStatus": {
+      "type": "number",
+      "id":true
+    },
+    "commit":{
+      "type":"string"
+    },
+    "nextHeart":{
+      "type":"string"
+    },
+    "messageCount":{
+      "type":"number",
+      "id":true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
