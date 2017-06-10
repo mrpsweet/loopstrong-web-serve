@@ -9,17 +9,17 @@
   },
   "dependencies": {
     "compression": "^1.0.3",
-    "cors": "^2.5.2",
-    "loopback": "^2.22.0",
-    "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^2.1.0",
-    "loopback-connector-mysql": "^2.2.0",
-    "loopback-datasource-juggler": "^2.39.0",
-    "serve-favicon": "^2.0.1"
+    "cors": "^2.8.3",
+    "loopback": "^2.38.3",
+    "loopback-boot": "^2.24.1",
+    "loopback-component-explorer": "^2.7.0",
+    "loopback-connector-mysql": "^2.4.1",
+    "loopback-datasource-juggler": "^2.54.1",
+    "serve-favicon": "^2.4.3"
   },
   "devDependencies": {
-    "jshint": "^2.5.6",
-    "tape": "^4.2.2"
+    "jshint": "^2.9.4",
+    "tape": "^4.6.3"
   },
   "repository": {
     "type": "git",
