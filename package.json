@@ -25,6 +25,6 @@
     "type": "git",
     "url": ""
   },
-  "description": "fenix api server base on loopback",
+  "description": "loopback can git your api",
   "license": "MIT"
 }

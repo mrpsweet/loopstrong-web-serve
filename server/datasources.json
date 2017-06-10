@@ -3,13 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
-  "fenix": {
+  "loopStrong": {
     "host": "localhost",
     "port": 3306,
-    "database": "test",
+    "database": "newguys",
     "username": "root",
     "password": "8556",
-    "name": "fenix",
+    "name": "loopStrong",
     "connector": "mysql"
   }
 }

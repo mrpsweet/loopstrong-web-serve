@@ -37,11 +37,11 @@
     "public": true
   },
   "actress": {
-    "dataSource": "fenix",
+    "dataSource": "loopStrong",
     "public": true
   },
   "gridgril": {
-    "dataSource": "fenix",
+    "dataSource": "loopStrong",
     "public": true
   }
 }
